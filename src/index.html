@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My first webpage</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="navbar">
+      <img id="logo" src="logo.png" alt="logo" />
+    </div>
+
+    <img
+      id="banner"
+      src="banner.jpg.jpg"
+      alt="Banner"
+      height="240px"
+    />
+
+    <h1>WELCOME TO SAM-DEV-CODER</h1>
+
+    <!-- Set Content Side by side -->
+    <div id="about">
+      <div id="description">
+        <p style="margin-top: 0">
+          Lorem ipsum dolor sit amet
+          <span class="line">consectetur</span> adipisicing elit. Eaque
+          aspernatur, tempore nobis aperiam nulla tempora. Quas vitae quos
+          impedit laborum saepe iste, praesentium iure doloribus, harum at
+          totam. Unde, molestias!
+        </p>
+
+        <p>We also offer 2 industry bootcamps</p>
+        <ol>
+          <li>Full Stack Developer Bootcamp</li>
+          <li>Data Science Bootcamp</li>
+        </ol>
+      </div>
+
+      <div id="team">
+        <img id="team-image" src="chef.jpg.jpg" alt="chef" />
+      </div>
+    </div>
+
+    <h2>Job Opportunities</h2>
+    <div id="jobs">
+      <table id="jobs-table">
+        <tr class="jobs-header-row">
+          <th rowspan="2">Job Title</th>
+          <th colspan="2">Location</th>
+          <th rowspan="2">Salary</th>
+          <th rowspan="2">Posted</th>
+        </tr>
+
+        <tr class="jobs-header-row">
+          <th>City</th>
+          <th>Country</th>
+        </tr>
+
+        <tr class="jobs-data-row">
+          <td>Front End Developer</td>
+          <td>Benue State</td>
+          <td>India</td>
+          <td>$50,0000</td>
+          <td>June 30th 2024</td>
+        </tr>
+
+        <tr class="jobs-data-row">
+          <td>Fullstack Developer</td>
+          <td>Abuja State</td>
+          <td>India</td>
+          <td>$20,0000</td>
+          <td>Sept 30th 2024</td>
+        </tr>
+
+        <tr class="jobs-data-row">
+          <td>Data Science</td>
+          <td>Lagos State</td>
+          <td>India</td>
+          <td>$10,0000</td>
+          <td>March 30th 2024</td>
+        </tr>
+
+        <tr class="jobs-data-row">
+          <td>ML Engineer</td>
+          <td>Kaduna State</td>
+          <td>India</td>
+          <td>$5,0000</td>
+          <td>Feb 30th 2024</td>
+        </tr>
+      </table>
+    </div>
+
+    <div id="application">
+      <h2>Submit Your application</h2>
+      <!-- sample form - remove later -->
+      <form id="application-form">
+        <div class="form-group">
+          <label for="name">Full Name </label> <br />
+          <input
+            type="text"
+            id="name"
+            name="Full Name"
+            required
+            placeholder="Samuel"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label> <br />
+          <input
+            type="email"
+            id="email"
+            name="email-address"
+            placeholder="spellz@example.com"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Number</label> <br />
+          <input
+            type="phone"
+            name="phone"
+            id="number"
+            required
+            placeholder="+234"
+          />
+        </div>
+        <div class="form-group">
+          <label for="dob">Date of birth</label> <br />
+          <input type="date" id="dob" required />
+        </div>
+
+        <div class="form-group">
+          <label for="position">Position Applied for</label> <br />
+          <select name="position applied" id="position" required>
+            <option>Select position</option>
+            <option value="frontend">Frontend Developer</option>
+            <option value="Backend">Backend Developer</option>
+            <option value="mechanics">Mechanics Developer</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="resume">Upload CV/Resume here</label>
+          <input type="file" id="resume" name="resume" />
+        </div>
+        <div class="form-group">
+          <label for="coverletter">Cover Letter</label><br />
+          <textarea name="coverletter" id="leter" required></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="terms">
+            <input type="checkbox" id="terms" name="terms" required />
+            I agree to the terms and condition
+          </label>
+        </div>
+
+        <div class="form-group">
+          <input type="submit" value="Submit Application" class="submit" />
+        </div>
+      </form>
+    </div>
+
+    <div id="footer">
+      <ul id="footer-list">
+        <li>Course</li>
+        <li>Programs</li>
+        <li>Youtube</li>
+      </ul>
+      <span>Copyright</span>
+    </div>
+  </body>
+</html>

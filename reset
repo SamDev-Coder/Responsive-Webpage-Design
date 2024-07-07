@@ -1,0 +1,29 @@
+[33mcommit f8cda071b55bce6e65a2182f7da8ce87c225f5f4[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mspellz/add-meta-tags[m[33m)[m
+Author: SamDev-Coder <126113961+SamDev-Coder@users.noreply.github.com>
+Date:   Sun Jul 7 00:03:29 2024 +0000
+
+    added title and favicon
+
+[33mcommit 0f5e4c441e978f21f7b4b43cc496cdd5afce452a[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m, [m[1;32maachanges[m[33m)[m
+Author: SamDev-Coder <126113961+SamDev-Coder@users.noreply.github.com>
+Date:   Sat Jul 6 00:51:50 2024 +0000
+
+    Change to Welcome to spellz
+
+[33mcommit 7c39a2c9fd60d11c085040f127d9b2e8707e7a40[m
+Author: SamDev-Coder <126113961+SamDev-Coder@users.noreply.github.com>
+Date:   Sat Jul 6 00:19:56 2024 +0000
+
+    update index.html
+
+[33mcommit 40cb4271fc10dda8ffeb2160db0f1bc7e2893f25[m
+Author: SamDev-Coder <126113961+SamDev-Coder@users.noreply.github.com>
+Date:   Fri Jul 5 23:55:47 2024 +0000
+
+    Adding the HTML and CSS files
+
+[33mcommit 1b10a5d089d9818c310eeedff1764eed6857c8b5[m
+Author: SamDev-Coder <126113961+SamDev-Coder@users.noreply.github.com>
+Date:   Fri Jul 5 16:14:33 2024 -0700
+
+    Initial commit

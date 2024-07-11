@@ -1,3 +1,25 @@
+/* Basic styles (extra small devices-mobile */
+/* CSS rules */
+
+
+/* Small devices (tablets) */
+@media screen and (min-width: 576px) {
+  /* CSS Rules here */
+}
+
+/* Medium devices (laptops) */
+@media screen and (min-width: 768px) {
+  /* CSS rules here */
+}
+
+/* Large devices (Desktop) */
+@media screen and (min-width: 992) {
+  /* CSS rules here */
+}
+
+
+
+/*
 body {
   margin: 0;
   padding: 0;
@@ -45,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: line-through;
 }
 
-/* The Main Div of the content */
+/* The Main Div of the content 
 #about {
   display: flex;
   max-width: 800px;
@@ -174,3 +196,4 @@ h3 {
   margin: 0 16px;
   
 }
+*/
